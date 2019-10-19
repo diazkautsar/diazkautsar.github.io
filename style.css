@@ -1,3 +1,109 @@
 body {
-    background-color: blue;
+    margin: 0;
+    padding: 0;
+    background-image: url(/home/kautsardiaz/HACKTIV8/phase_0/week_1/jumat/diazkautsar.github.io/funky-lines.png);
+}
+
+header {
+    background-color: #333333;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+}    
+ 
+header .foto {
+    position: relative;
+    left: 20px;
+}
+
+header .foto2 {
+    position: relative;
+    left: -20px;
+}
+
+header nav ul{
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+header form #login {
+    width: 75px;
+    left: 50px;
+}
+
+.up {
+    width: 80%;
+    margin: 90px auto 40px auto;
+    box-shadow: 4px 11px 5px 2px rgba(0,0,0,0.57);
+    background-color: white;
+    border: 1px solid red;
+}
+
+.up .atas {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+.up .bawah {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.up .bawah nav a {
+    list-style-type: none;
+    padding: 20px 20px 20px 20px;
+    font-size: 60px;
+    color: black;
+}
+
+.under{
+    width: 100%;
+    margin: -19px auto -6px auto;
+    font-family: 'Special Elite', cursive;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #333333;
+}
+
+footer h5 {
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+div {
+    font-size: 20px;
+    position: fixed;
+    bottom: 70px;
+    right: 15px;
+    background: white;
+    padding: 3px;
+    box-shadow: 4px 11px 5px 2px rgba(0,0,0,0.57);
+    border-radius: 15px;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+div a {
+    color: rgb(44, 148, 44);
 }
